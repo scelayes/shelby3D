@@ -3,17 +3,10 @@ font-family: 'Krona One', sans-serif;
 background-image: linear-gradient(to left, #434343 0%, black 100%);
 background-size: cover;
 }
-
-
-td ul li {
-	color:#343439;
-	text-align: center;
-	}
 img{
 display: block;
 margin: auto;
 }
-
 video{
 display: block;
 margin-top: 60px;
@@ -22,7 +15,7 @@ height: 300px;
 margin-left: 30px;
 }
 ol li {
-	color:#7E82C4;
+	color:#798f8c;
 	list-style: none;
 	padding: 50px;
 	text-align: center;
@@ -34,16 +27,13 @@ border: double;
 border-color: white;
 }
 
-
 p {
-   color:#CBCDF0;
+   color:#798f8c;
    font-size: 20px;
    text-align: center;
-
    }
 div p {
   padding-bottom: 50px;
-
    }
 
 header nav ul li {
@@ -55,20 +45,16 @@ margin: 2px;
 height: 28px;
 width: 250px;
 }
-
-
-
 header nav ul li:hover{
 display: inline-block;
 text-decoration: underline;
-color:#0E1366;
-background-color:#282D89;
+color:#0e1821;
+background-color:#d9ebe9;
 padding: 2px;
 margin: 2px;
 height: 28px;
 width: 250px;
 }
-
 body a {
 	text-decoration: none;
 	color:white;
@@ -76,45 +62,21 @@ body a {
 	border: 2px;
 	font-size: 20px;
 	margin: 20px;
-	font-family: 'Suez One', serif;
-
-	
+	font-family: 'Suez One', serif;	
 }
 body a:hover{
 	text-decoration: underline;
-	color:black;
+	color:#0e1821;
 	padding: 2px;
 	border: 2px;
 	margin: 20px;
 	font-family: 'Suez One', serif;
 }
 ul li {
-	color: white;
+	color: #798f8c;
 	text-align: center;	
 	list-style: none;
 }
-h2 {
-   color:#9798A7;
-  font-family: 'Suez One', serif;
-   text-align: center;
-   padding: 20px;
-   margin:55px;
-   font-weight: bold; 
-   border: double;
-   border-color: white;
-   letter-spacing: 2px;
-   }
-h3 {
-   color:red;
-   font-family: 'Suez One', serif;
-   font-size: 15px;
-   }
- h4 {
-  text-transform: uppercase;
-  text-decoration:underline;
-  color: #222781;
-   }
-
   h1 {
   text-transform: uppercase;
   color: #222781;
@@ -134,31 +96,43 @@ margin: auto;
 nav img{
 	margin:5px;
 	border: double;
+	border-color: white;
 	}
-#verde {
-	color:#9295BF;
-	text-align: center;
-	padding: 10px;
-	font-size: 30px;
-}
+.subtitulo {
+   color:#CDD2D6;
+   font-family: 'Suez One', serif;
+   text-align: center;
+   padding: 20px;
+   margin:55px;
+   font-weight: bold; 
+   border: double;
+   border-color: white;
+   letter-spacing: 2px;
+   font-size: 25px;
+   }
+   .subtitulo2 {
+   color:#CDD2D6;
+   font-family: 'Suez One', serif;
+   text-align: center;
+   padding: 20px;
+   margin:55px;
+   font-weight: bold; 
+   border: double;
+   border-color: white;
+   letter-spacing: 3px;
+   font-size: 30px;
+   }
 .left{
+	text-transform: uppercase;
+    color: #798f8c; 
 	text-align: left;
-}
-
-.titulo {
-	font-family: 'Suez One', serif;
-	text-align: center;
-	color:#1D2055;
-	letter-spacing: 1.2px
-}
-.blanco {
-	color: white;
-	font-style: bold;
+	font-size: 15px;
+	padding:5px;
 }
 .form-group{
-	color: white;
+	color: #798f8c;
 	font-style: bold;
-	font-size: 20px;
+	font-size: 15px;
 }
 .encabezado{
 	display: flex;
@@ -178,7 +152,6 @@ font-size: 15px;
 background-color: black;
 }
 }
-
 .encabezadoprinc{
 	display: flex;
 	flex-wrap: nowrap;
@@ -194,10 +167,8 @@ text-align: left;
 border: none;
 padding: 5px; 
 margin: 5px;
-font-size: 20px; 
+font-size: 15px; 
 }
-
-
 .pie{
 	display: flex;
 	background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
@@ -206,8 +177,7 @@ font-size: 20px;
 	justify-content: space-evenly;
 	align-items: flex-start;
 	padding: 5px;
-	margin: 5px;
-	
+	margin: 5px;	
 }
 .logo{
 	padding: 5px;
@@ -232,7 +202,6 @@ font-size: 20px;
 .main2{
 	background-image: linear-gradient(to left, #434343 0%, black 100%);
 }
-
 .inicio{
 	display: flex;
 	flex-wrap: nowrap;
@@ -276,7 +245,6 @@ font-size: 20px;
 	justify-content: space-around;
 	align-items: baseline;
 }
-
 .contenedor2{
 	display: flex;
 	flex-wrap: nowrap;
@@ -285,7 +253,6 @@ font-size: 20px;
 	align-items: flex-start;
 	margin-bottom: 50px;	
 }
-
 .costos{
 	margin-left: 20px;
 	align-self: left; 
@@ -311,7 +278,7 @@ transform:scale(1.5)
 	width: 300px;
 	height: 300px;
 	padding: 10px;
-margin: 10px;
+    margin: 10px;
 	}
 .card-text{
 	color:black;
