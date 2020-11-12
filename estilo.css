@@ -304,6 +304,9 @@ h1 {
    div p {
   font-size: 15px;
    }
+   p{
+  font-size: 15px;
+   }
 ul li {
 	color: #798f8c;
 	text-align: left;	
