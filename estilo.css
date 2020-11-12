@@ -175,6 +175,11 @@ font-size: 15px;
 	padding: 5px;
 	margin: 5px;
 }
+.logo3{
+	padding: 5px;
+	margin-left: 40px;
+	height: 250px;
+	}
 .logopie{
 	padding: 5px;
 	margin: 5px;
@@ -362,8 +367,25 @@ margin-right: 15px;
 width: 30%;
 height:30%;
 	}
+.logo3{
+	padding: 5px;
+	margin-left: 40px;
+	height: 60%;
+	width: 70%;
+	}
 iframe{
 height:70%;
 width: 80%;
 }
+.inicio{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	}
+.animate__animated.animate__tada{
+	font-size:20px;
+	}
 	}
