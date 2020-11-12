@@ -410,7 +410,7 @@ transform:scale(1.2)
 
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:800px){
 	
 h1 {
   font-size: 20px;
