@@ -356,6 +356,15 @@ background-color:#d9ebe9;
 padding: 2px;
 margin: 2px;
 height: 28px;
-width: 220px;
+width: 180px;
+}
+body a {
+	text-decoration: none;
+	color:white;
+	padding: 2px;
+	border: 2px;
+	font-size: 15px;
+	margin: 20px;
+	font-family: 'Suez One', serif;	
 }
 }
