@@ -430,6 +430,7 @@ ul li {
 video{
 	height: 200px;
     width:80%;
+    border:none;
 }
 
 header nav ul li {
@@ -472,8 +473,8 @@ height:30%;
 	}
 .logo3{
 	padding: 5px;
-	height: 50%;
-	width: 60%;
+	height: 30%;
+	width: 50%;
 	}
 .colores{
 	width: 100%;
@@ -518,8 +519,11 @@ transform:scale(1.2)
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	padding: 25px;
+	padding: 10px;
 	font-size:10px;
 	}
+	#negro{
+	width: 100%;
+}
 
 }
